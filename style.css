@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(157, 212, 239);
+  background: linear-gradient(
+    90deg,
+    rgba(157, 212, 239, 1) 41%,
+    rgba(233, 230, 227, 1) 100%
+  );
+}
+
+header {
+  margin-bottom: 10rem;
+}
+h1 {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.1rem;
+}
+nav ul li {
+  display: inline-block;
+}
+
+.tsubasa {
+  width: 100%;
+  height: 500px;
+  background-image: url(./tsubasa.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.tsubasa h1 {
+  padding-top: 7rem;
+  text-align: center;
+  padding-right: 25rem;
+}
+img {
+  margin-left: 30rem;
+  border: 2px solid black;
+}
+.goleiro {
+  width: 100%;
+  height: 400px;
+  background-image: url(./goleiro-.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
